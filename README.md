@@ -12,5 +12,13 @@
 4. 리뷰어는 (gamza_park) 이외에 두분 더 추가를 하여 3분으로 해 주세요.
 5. 2명이상이 Approve를 하였을 경우, Merge처리를 해주세요.
 
+# LeetCode
+- 6/24 
+  - Notions
+    - [Notion](https://almond-horn-824.notion.site/6-24-Study-d64516fb77a74afd9c6f7626edf3393f?pvs=4)
+  - Try It
+    - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+    - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
 ## ??
 - 알림 통지용 Slack이나 그런게 있으면 좋겠다? 싶으신분 계시다면 알려주십쇼!

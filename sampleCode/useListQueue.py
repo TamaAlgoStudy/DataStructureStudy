@@ -48,18 +48,34 @@ class ListStack:
 
 def isPalindrome(A) -> bool:
     # 거꾸로 해도 같은 문자인지 체크.
-    s = ListStack()
-    q = ListQueue()
 
-    for i in range(len(A)):
-        s.push(A[i])
-        q.enqueue(A[i])
+    # 형일 코드
+    # s = ListStack()
+    # q = ListQueue()
+
+    # for i in range(len(A)):
+    #     s.push(A[i])
+    #     q.enqueue(A[i])
     
-    while (not q.isEmpty()) and s.pop() == q.dequeue():
-        {}
-    if q.isEmpty():
-        return True
-    return False
+    # while (not q.isEmpty()) and s.pop() == q.dequeue():
+    #     {}
+    # if q.isEmpty():
+    #     return True
+    # return False
+
+    # 정한님 코드.
+    queue = ListQueue()
+    stack = ListStack()
+
+    for i in range:
+        queue.enqueue(s[i])
+        stack.push(s[i])
+
+    while not q.isEmpty():
+        if queue.dequeue() != stack.pop():
+            return false
+
+    return true
 
 def main():
     print("Palindrome Check")

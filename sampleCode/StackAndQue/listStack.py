@@ -1,5 +1,5 @@
 class ListStack:
-    def __init(self):
+    def __init__(self):
         self.__stack = []
 
     def push(self, x):

@@ -7,10 +7,14 @@ class ListStack:
 
     def pop(self):
         return self.__stack.pop()
+        # pop()
+        # 변수에다가 배열의 마지막 값을 저장.
+        # 배열의 마지막 인덱스 값을 제거
+        # 변수에 저장한 값을 리턴.
 
     def top(self):
         if self.isEmpty():
-            return None
+            return None # Null
         return self.__stack[-1]
 
     def isEmpty(self):
@@ -31,7 +35,8 @@ print(liStack.top())
 liStack.push(5)
 liStack.push(10)
 print("top : ", liStack.top())
-liStack.pop()
-liStack.push('test')
+
+liStack.pop() # 5
+liStack.push('test') # [test, 5]
 
 liStack.printStack()
